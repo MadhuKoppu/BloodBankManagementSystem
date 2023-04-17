@@ -6,7 +6,7 @@ import "../../assets/css/AboutUs.css";
 const AboutUs = () => {
   return (
     <div className="about_Us">
-      <div class="about-section">
+      <div className="about-section">
         <h1>About Us</h1>
         <p>Here is some information about our page</p>
         <p>
@@ -23,30 +23,30 @@ const AboutUs = () => {
       </div>
 
       <h2 className="about_heading black_color">Our Team</h2>
-      <div class="row black_color">
-        <div class="column">
-          <div class="card">
+      <div className="row black_color">
+        <div className="column">
+          <div className="card">
             <img src={p} alt="Jane" className="width100" />
-            <div class="container">
+            <div className="container">
               <h2>Purna</h2>
-              <p class="title">CEO & Founder</p>
+              <p className="title">CEO & Founder</p>
               <p>purna@example.com</p>
               <p>
-                <button class="button">Contact</button>
+                <button className="button">Contact</button>
               </p>
             </div>
           </div>
         </div>
 
-        <div class="column">
-          <div class="card">
+        <div className="column">
+          <div className="card">
             <img src={m} alt="Mike" className="width100" />
-            <div class="container">
+            <div className="container">
               <h2>Madhu</h2>
-              <p class="title">Art Director</p>
+              <p className="title">Art Director</p>
               <p>madhu@example.com</p>
               <p>
-                <button class="button">Contact</button>
+                <button className="button">Contact</button>
               </p>
             </div>
           </div>

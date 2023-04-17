@@ -15,16 +15,16 @@ const Navbar = () => {
         <SearchPage />
       </nav> */}
       <>
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="/homepage">
+        <nav className="navbar navbar-inverse">
+          <div className="container-fluid">
+            <div className="navbar-header">
+              <a className="navbar-brand" href="/homepage">
                 <img src={bdrop} alt="bdroplogo" className="bdroplogo" />
-                <h2 className="nameHeight">Blood Donation Manage</h2>
+                <h2 className="nameHeight">Blood Bank Management System</h2>
               </a>
             </div>
-            <ul class="nav navbar-nav">
-              <li class="active">
+            <ul className="nav navbar-nav">
+              <li className="active">
                 <a href="/homepage">Home</a>
               </li>
               <li>
