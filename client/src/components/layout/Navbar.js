@@ -24,7 +24,7 @@ const Navbar = () => {
               </a>
             </div>
             <ul className="nav navbar-nav">
-              <li className="active">
+              <li>
                 <a href="/homepage">Home</a>
               </li>
               <li>
@@ -40,7 +40,7 @@ const Navbar = () => {
                 <SearchPage />
               </li>
                 <li>
-                <a href="/donate">Login</a>
+                <a href="/login">Login</a>
               </li>
               <li>
                 <a href="/AboutUs">About</a>

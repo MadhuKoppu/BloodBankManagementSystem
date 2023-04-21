@@ -30,7 +30,7 @@ const AboutUs = () => {
             <div className="container">
               <h2>Purna</h2>
               <p className="title">CEO & Founder</p>
-              <p>purna@example.com</p>
+              <p>purna@gmail.com</p>
               <p>
                 <button className="button">Contact</button>
               </p>
@@ -44,7 +44,7 @@ const AboutUs = () => {
             <div className="container">
               <h2>Madhu</h2>
               <p className="title">Art Director</p>
-              <p>madhu@example.com</p>
+              <p>madhu@gmail.com</p>
               <p>
                 <button className="button">Contact</button>
               </p>
